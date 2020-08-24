@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title"><i class="fas fa-film"></i>
+          Movie Search</h1>
+        <label><b>Search</b></label>
+        <input class="input">
+        <div class="dropdown">
+            <div class="dropdown-menu">
+              <div class="dropdown-content results"></div>
+            </div>
+          </div>
+          <div class="error-message"></div>
+          <div class="show-item"></div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="debounce.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
